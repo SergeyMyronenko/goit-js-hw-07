@@ -2,8 +2,9 @@ const inputBox = document.querySelector("#controls");
 const input = document.querySelector("#controls input");
 
 const createBtn = document.querySelector("#controls button[data-create]");
-
+createBtn.style.backgroundColor = "#4E75FF";
 const destroyBtn = document.querySelector("#controls button[data-destroy]");
+destroyBtn.style.backgroundColor = "#FF4E4E";
 
 const divBox = document.querySelector("#boxes");
 divBox.style.marginTop = "10px";
